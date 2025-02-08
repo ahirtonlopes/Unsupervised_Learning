@@ -1,38 +1,46 @@
-# Aprendizado Não Supervisionado - Aula 1
+# Pos Tech - Unsupervised Learning
 
-Bem-vindo à primeira aula do curso de Aprendizado Não Supervisionado! Nesta aula introdutória, exploraremos os conceitos fundamentais do Aprendizado Não Supervisionado e sua importância na análise de dados.
+Prof. Dr. Ahirton Lopes (profahirton.lopes@fiap.com.br)
 
-## Conteúdo da Aula:
-1. **Introdução ao Aprendizado Não Supervisionado:**
-   - Definição e conceitos básicos.
-   - Diferenças entre Aprendizado Não Supervisionado e Supervisionado.
-   - Aplicações práticas e casos de uso.
+Este repositório contém os materiais e códigos utilizados na disciplina de **Aprendizado Não Supervisionado** do Pos Tech "Machine Learning Engineering". O curso cobre conceitos fundamentais e aplicações práticas de técnicas como Clustering, Redução de Dimensionalidade, Regras de Associação e Modelagem de Tópicos.
 
-2. **Algoritmos de Clustering:**
-   - Conceito de clustering e suas aplicações.
-   - Visão geral dos principais algoritmos, como K-means, Hierárquico, DBSCAN, entre outros.
-   - Avaliação de clusters e métricas de desempenho.
+## Conteúdo do Curso
 
-3. **Redução de Dimensionalidade:**
-   - Motivação para a redução de dimensionalidade.
-   - Técnicas populares, como PCA, t-SNE, LDA, entre outras.
-   - Aplicações práticas em problemas de aprendizado não supervisionado.
+### Aula 1: Introdução ao Aprendizado Não Supervisionado
+- Conceitos fundamentais
+- Problemas resolvidos com aprendizado não supervisionado
+- Exemplo prático: **K-Means Clustering** com o dataset *Penguins*
 
-4. **Hands-on:**
-   - Implementação do algoritmo K-Means do zero em Python, utilizando o dataset penguins.
-   - Visualização dos resultados e interpretação dos clusters obtidos.
+### Aula 2: Clustering com Dados do IMDB
+- Detalhamento do **K-Means**
+- Introdução ao **Elbow Method** para definição do número de clusters
+- Exemplo prático com dados do **IMDB**
 
-## Recursos Adicionais:
-- Códigos-fonte em Python para o hands-on.
-- Conjunto de dados penguins para a prática.
-- Links para artigos e materiais de referência sobre Aprendizado Não Supervisionado.
+### Aula 3: Redução de Dimensionalidade com PCA
+- Conceitos e aplicação do **PCA (Principal Component Analysis)**
+- Exemplo prático: **Breast Cancer Dataset**
+- PCA aplicado a **Reconhecimento Facial** com **SVM** usando *Labeled Faces in the Wild*
 
-## Pré-requisitos:
-- Conhecimento básico de Python e manipulação de dados.
-- Familiaridade com conceitos de álgebra linear e estatística.
+### Aula 4: Regras de Associação
+- Introdução ao conceito de **Regras de Associação**
+- Implementação do **Algoritmo Apriori**
 
-Junte-se a nós nesta jornada emocionante pelo mundo do Aprendizado Não Supervisionado e comece a explorar os insights ocultos em seus dados!
+### Aula 5: Modelagem de Tópicos com LDA
+- Introdução à **Latent Dirichlet Allocation (LDA)**
+- Exemplo prático com textos do livro *O Mágico de Oz*
 
----
+## Desafio Final
+Ao final das aulas, os alunos serão desafiados a aplicar os conceitos aprendidos em um problema real, utilizando uma ou mais técnicas abordadas na disciplina.
 
-Esse descritivo fornece uma visão geral do conteúdo da primeira aula, os recursos disponíveis e os pré-requisitos necessários para participar.
+## Como Usar Este Repositório
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ahirtonlopes/Unsupervised_Learning.git
+   ```
+2. Acesse os notebooks de cada aula na pasta correspondente e execute os exemplos práticos.
+
+## Contribuição
+Sinta-se à vontade para sugerir melhorias, abrir *issues* ou contribuir com *pull requests*!
+
+## Licença
+Este repositório está licenciado sob a [MIT License](LICENSE).
