@@ -1,4 +1,4 @@
-# Pos Tech - Unsupervised Learning
+# FIAP Pos Tech - Machine Learning Engineering - Unsupervised Learning
 
 Prof. Dr. Ahirton Lopes (profahirton.lopes@fiap.com.br)
 
